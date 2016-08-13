@@ -1,1 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+@mixin font(){
+	font-family: 'Open Sans', sans-serif;
+}

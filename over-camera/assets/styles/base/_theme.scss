@@ -1,3 +1,38 @@
+h1, h2, h3, h4, h5, h6, p {
+	@include font();
+}
+
 h1 {
-	font-family: 'Open Sans', sans-serif;
+	padding: 20px 20px;
+	font-size: 28px;
+}
+
+h2 {
+	padding: 20px 20px;
+	font-size: 24px;
+}
+
+h3 {
+	padding: 20px 20px;
+	font-size: 20px;
+}
+
+h4 {
+	padding: 15px 20px;
+	font-size: 20px;
+}
+
+h5 {
+	padding: 10px 20px;
+	font-size: 18px;
+}
+
+h6 {
+	padding: 10px 20px;
+	font-size: 16px;
+}
+
+p {
+	padding: 10px 20px;
+	font-size: 14px;
 }

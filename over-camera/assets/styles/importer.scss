@@ -1,7 +1,17 @@
 // @import 'custom.scss';
+
 @import 'base/reset';
-@import 'base/colors';
-@import 'base/fonts';
-@import 'base/theme';
-@import 'grid/defaults';
+// @import 'base/colors';
+// @import 'base/fonts';
+// @import 'base/theme';
+@import 'base/spacing';
+
+@import 'components/color';
+@import 'components/variables';
+@import 'components/global';
+@import 'components/normalize';
+@import 'components/icons-material-design';
+
 @import "../../bower_components/susy/sass/susy";
+@import 'grid/defaults';
+

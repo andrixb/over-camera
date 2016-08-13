@@ -1,4 +1,13 @@
 .wrap {
   @include container;
-  background-color: $app-black;
+}
+
+.content {
+	@include span(8);
+
+	background-color: $app-black;
+}
+
+.sidebar {
+  @include span(4 last); 
 }

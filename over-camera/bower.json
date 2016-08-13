@@ -1,0 +1,24 @@
+{
+  "name": "over-camera",
+  "description": "a Sails application",
+  "main": "app.js",
+  "authors": [
+    "anonymous node/sails user"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/andrixb/over-camera",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12"
+  }
+}

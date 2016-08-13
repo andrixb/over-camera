@@ -1,0 +1,4 @@
+.wrap {
+  @include container;
+  background-color: $app-black;
+}

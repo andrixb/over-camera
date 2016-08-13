@@ -1,5 +1,7 @@
 // @import 'custom.scss';
-@import 'base/colors.scss';
-@import 'base/fonts.scss';
-@import 'base/theme.scss';
+@import 'base/reset';
+@import 'base/colors';
+@import 'base/fonts';
+@import 'base/theme';
+@import 'grid/defaults';
 @import "../../bower_components/susy/sass/susy";
